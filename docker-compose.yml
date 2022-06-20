@@ -3,4 +3,4 @@ services:
   hello_guy:
     image: hello-world:latest
     volumes:
-      - ./www:/usr/share/nginx/html
+      - ./www:/
