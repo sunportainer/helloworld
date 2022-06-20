@@ -1,6 +1,6 @@
 version: "3"
 services:
   hello_guy:
-    image: hello-world:latest
+    image: busybox:latest
     volumes:
-      - ./www:/
+      - ./www:/host
