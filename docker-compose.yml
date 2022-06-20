@@ -2,3 +2,5 @@ version: "3"
 services:
   hello_guy:
     image: hello-world:latest
+    volumes:
+      - ./www:/usr/share/nginx/html
