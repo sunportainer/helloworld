@@ -1,4 +1,4 @@
 version: "3"
 services:
   hello_guy:
-    image: busybox:latest
+    image: hello-world:latest
