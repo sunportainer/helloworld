@@ -3,4 +3,4 @@ services:
   hello_guy:
     image: nats:nanoserver
     volumes:
-      - ./www:/host
+      - ./www:c:/data
